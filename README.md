@@ -1,4 +1,10 @@
-# CoCoRaHS-Experiment
+# NWS-Experiment
 By Cameron Wang
 
-An experiment that aims to display CoCoRaHS data in realtime and highlight station locations and timestamps where rainfall exceeds 1.5 inches.
+An project that experiments with the NWS API. Possible goals include:
+
+Returning NWS alerts upon request (can parameterize by location, severity, etc.)
+
+Displaying a list of stations?
+
+Displaying a list of current day precipitation measurements?
