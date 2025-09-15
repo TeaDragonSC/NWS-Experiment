@@ -68,3 +68,6 @@ with st.expander("📋 Full Alert Details"):
 # Download CSV option
 csv = df.to_csv(index=False).encode("utf-8")
 st.download_button("⬇️ Download Alerts as CSV", csv, "nws_alerts.csv", "text/csv")
+
+githuburl = "https://github.com/TeaDragonSC/NWS-Experiment/tree/main"
+st.markdown("[Github](%s)" % githuburl)
