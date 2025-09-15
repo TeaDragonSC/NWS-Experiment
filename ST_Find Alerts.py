@@ -9,7 +9,7 @@ st.set_page_config(page_title="NWS Active Alerts", layout="wide")
 st.title("🌩️ National Weather Service: Active Alerts")
 st.markdown("By Cameron Wang")
 st.markdown(
-    "This app retrieves ongoing weather alerts from the **National Weather Service API**."
+    "Retrieve realtime weather alerts from the **National Weather Service API**."
 )
 
 # Input: choose a state (optional)
@@ -17,7 +17,7 @@ state = st.text_input("Enter a 2-letter state code (e.g., CA, TX, NY). Leave bla
 
 # Fetch alerts
 url = "https://api.weather.gov/alerts/active"
-headers = {"User-Agent": "streamlit-nws-app (your_email@example.com)"}
+headers = {"User-Agent": "streamlit-nws-app (wangcameron@gmail.com)"}
 
 params = {}
 if state.strip():
