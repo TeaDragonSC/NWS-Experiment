@@ -6,8 +6,8 @@ import streamlit as st
 # Streamlit App
 # -----------------------------
 st.set_page_config(page_title="NWS Active Alerts", layout="wide")
-st.title("National Weather Service - Active Alerts")
-
+st.title("🌩️ National Weather Service: Active Alerts")
+st.markdown("By Cameron Wang")
 st.markdown(
     "This app retrieves ongoing weather alerts from the **National Weather Service API**."
 )
