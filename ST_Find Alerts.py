@@ -71,4 +71,4 @@ st.download_button("⬇️ Download Alerts as CSV", csv, "nws_alerts.csv", "text
 
 githuburl = "https://github.com/TeaDragonSC/NWS-Experiment/"
 linkedinurl = "https://www.linkedin.com/in/cameron-wang-sio/"
-st.markdown("[GitHub](https://github.com/TeaDragonSC/NWS-Experiment/)")
+st.markdown("[GitHub](https://github.com/TeaDragonSC/NWS-Experiment/) | [LinkedIn](https://www.linkedin.com/in/cameron-wang-sio/)")
